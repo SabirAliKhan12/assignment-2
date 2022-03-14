@@ -42,7 +42,7 @@ main() {
   String group2 = "A";
   String group3 = "B";
 
-  print("str1.compareTo(str2): ${group1.compareTo(group2)}");
-  print("str1.compareTo(str3): ${group2.compareTo(group3)}");
-  print("str3.compareTo(str2): ${group3.compareTo(group1)}");
+  print("group1.compareTo(group2): ${group1.compareTo(group2)}");
+  print("group2.compareTo(group3): ${group2.compareTo(group3)}");
+  print("group3.compareTo(group1): ${group3.compareTo(group1)}");
 }
